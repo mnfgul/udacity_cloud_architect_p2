@@ -1,0 +1,46 @@
+﻿Your Estimate
+Service Type,Components,Region,Component Price,Service Price
+Amazon EC2 Service (US East (N. Virginia)),,,,$3908.9
+,Compute:,US East (N. Virginia),$3762.5
+,EBS Volumes:,US East (N. Virginia),$64
+,EBS IOPS:,US East (N. Virginia),$0
+,EBS Snapshots:,US East (N. Virginia),$82.4
+Amazon S3 Service (US East (N. Virginia)),,,,$21.2
+,S3 Standard Storage:,US East (N. Virginia),$2.3
+,S3 Standard Put Requests:,US East (N. Virginia),$5
+,S3 Standard Other Requests:,US East (N. Virginia),$0.4
+,S3 Standard Select Data Returned:,US East (N. Virginia),$3.5
+,S3 Standard Select Data Scanned:,US East (N. Virginia),$10
+Amazon Route 53 Service,,,,$5
+,Hosted Zones:,Global,$5
+Amazon CloudFront Service,,,,$259.46
+,Data Transfer Out:,Global,$259.26
+,Data Transfer Out to Origin:,Global,$0.2
+Amazon RDS Service (US East (N. Virginia)),,,,$1041.95
+,DB instances:,US East (N. Virginia),$1024.8
+,Storage:,US East (N. Virginia),$4.6
+,Backups:,US East (N. Virginia),$9.5
+,Intra-Region Data Transfer:,US East (N. Virginia),$3.05
+Amazon Elastic Load Balancing (US East (N. Virginia)),,,,$79.79
+,Application LBs:,US East (N. Virginia),$79.79
+Amazon CloudWatch Service (US East (N. Virginia)),,,,$39.35
+,Ingested Logs:,US East (N. Virginia),$35
+,Archived Logs:,US East (N. Virginia),$4.35
+Amazon VPC Service (US East (N. Virginia)),,,,$32.99
+,NAT Gateway,US East (N. Virginia),$32.99
+AWS Data Transfer In,,,,$0
+,US East (N. Virginia) Region:,Global,$0
+AWS Data Transfer Out,,,,$105.8
+,US East (N. Virginia) Region:,Global,$105.8
+AWS Support (Business),,,,$543.77
+,Support for all AWS services:,,$543.77
+,,Free Tier Discount:,,$-56.76
+,,Total Monthly Payment:,,$5981.45
+
+
+
+"In order to reduce the cost of the system, the first option was to reduce the EC2 instance costs. Instead of using m5.4xlarge instances, I decided to use m5.2xlarge instance type. I could decrease the server count and keep the type same, however, I thought it would be better to keep the server count and reduce their performance. 
+
+The second choose to reduce the cost was to select a lower performance RDS server. I decided to use m4.2xlarge server and reduce the backup size. I did not change the Multi-AZ deployment option because I think this is essential for data persistency. 
+
+I did not change storage and data transfer related services as they limits are reasonable for this app requirements. "
