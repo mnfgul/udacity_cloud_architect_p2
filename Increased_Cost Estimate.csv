@@ -1,54 +1,54 @@
-﻿Your Estimate
+Your Estimate,,,,
 Service Type,Components,Region,Component Price,Service Price
 Amazon EC2 Service (US East (N. Virginia)),,,,$12341.6
-,Compute:,US East (N. Virginia),$12195.2
-,EBS Volumes:,US East (N. Virginia),$64
-,EBS IOPS:,US East (N. Virginia),$0
-,EBS Snapshots:,US East (N. Virginia),$82.4
+,Compute:,US East (N. Virginia),$12195.2,
+,EBS Volumes:,US East (N. Virginia),"$64,00",
+,EBS IOPS:,US East (N. Virginia),"$0,00",
+,EBS Snapshots:,US East (N. Virginia),$82.4,
+,Elastic IPs:,US East (N. Virginia),"$5,00",
 Amazon S3 Service (US East (N. Virginia)),,,,$21.2
-,S3 Standard Storage:,US East (N. Virginia),$2.3
-,S3 Standard Put Requests:,US East (N. Virginia),$5
-,S3 Standard Other Requests:,US East (N. Virginia),$0.4
-,S3 Standard Select Data Returned:,US East (N. Virginia),$3.5
-,S3 Standard Select Data Scanned:,US East (N. Virginia),$10
-Amazon Route 53 Service,,,,$5
-,Hosted Zones:,Global,$5
+,S3 Standard Storage:,US East (N. Virginia),$2.3,
+,S3 Standard Put Requests:,US East (N. Virginia),"$5,00",
+,S3 Standard Other Requests:,US East (N. Virginia),$0.4,
+,S3 Standard Select Data Returned:,US East (N. Virginia),$3.5,
+,S3 Standard Select Data Scanned:,US East (N. Virginia),"$10,00",
+Amazon Route 53 Service,,,,"$5,00"
+,Hosted Zones:,Global,"$5,00",
 Amazon CloudFront Service,,,,$259.46
-,Data Transfer Out:,Global,$259.26
-,Data Transfer Out to Origin:,Global,$0.2
+,Data Transfer Out:,Global,$259.26,
+,Data Transfer Out to Origin:,Global,$0.2,
 Amazon RDS Service (US East (N. Virginia)),,,,$3022.76
-,DB instances:,US East (N. Virginia),$2766.96
-,Storage:,US East (N. Virginia),$25
-,I/O:,US East (N. Virginia),$200
-,Backups:,US East (N. Virginia),$24.7
-,Intra-Region Data Transfer:,US East (N. Virginia),$6.1
+,DB instances:,US East (N. Virginia),$2766.96,
+,Storage:,US East (N. Virginia),"$25,00",
+,I/O:,US East (N. Virginia),"$200,00",
+,Backups:,US East (N. Virginia),$24.7,
+,Intra-Region Data Transfer:,US East (N. Virginia),$6.1,
 Amazon Elastic Load Balancing (US East (N. Virginia)),,,,$79.79
-,Application LBs:,US East (N. Virginia),$79.79
-Amazon ElastiCache Service (US East (N. Virginia)),,,,$631
-,On-Demand Cache Nodes:,US East (N. Virginia),$631
+,Application LBs:,US East (N. Virginia),$79.79,
+Amazon ElastiCache Service (US East (N. Virginia)),,,,"$631,00"
+,On-Demand Cache Nodes:,US East (N. Virginia),"$631,00",
 Amazon CloudWatch Service (US East (N. Virginia)),,,,$438.35
-,Standard Alarms:,US East (N. Virginia),$399
-,Ingested Logs:,US East (N. Virginia),$35
-,Archived Logs:,US East (N. Virginia),$4.35
-Amazon SNS Service (US East (N. Virginia)),,,,$0
-,Requests:,US East (N. Virginia),$0
-,Notifications:,US East (N. Virginia),$0
+,Standard Alarms:,US East (N. Virginia),"$399,00",
+,Ingested Logs:,US East (N. Virginia),"$35,00",
+,Archived Logs:,US East (N. Virginia),$4.35,
+Amazon SNS Service (US East (N. Virginia)),,,,"$0,00"
+,Requests:,US East (N. Virginia),"$0,00",
+,Notifications:,US East (N. Virginia),"$0,00",
 Amazon VPC Service (US East (N. Virginia)),,,,$32.99
-,NAT Gateway,US East (N. Virginia),$32.99
-AWS Data Transfer In,,,,$0
-,US East (N. Virginia) Region:,Global,$0
+,NAT Gateway,US East (N. Virginia),$32.99,
+AWS Data Transfer In,,,,"$0,00"
+,US East (N. Virginia) Region:,Global,"$0,00",
 AWS Data Transfer Out,,,,$119.61
-,US East (N. Virginia) Region:,Global,$119.61
+,US East (N. Virginia) Region:,Global,$119.61,
 AWS Support (Business),,,,$1482.65
-,Support for all AWS services:,,$1482.65
+,Support for all AWS services:,,$1482.65,
 ,,Free Tier Discount:,,$-56.76
-,,Total Monthly Payment:,,$18377.65
-
+,,Total Monthly Payment:,,$18382.65
+,,,,
 "Increased budget was used to scale up some of the essential resources that have significant effect on the app performance.
 Following decisions were made while using the extra budget.
 - EC2 instance types were changed with high performance instance type which provides more RAM, CPU and Network performance
 - RDS database instance type was changed with a higher performance instance. Also, the space for DB instance was doubled and instead of general SSD stoarage Provisioned IOPS SSD was used in order have a better database performance
 - 2 ElastiCache instances were added to incerease the speed and performance of the app and decrease unnecessary load on the DB
 - CloudWatch alarms were added that can be used for receving notification when app performance decrease or any other issue happens
-- AWS SNS service was added that can be used for CloudWatch alarms and other app notifications
- "
+- AWS SNS service was added that can be used for CloudWatch alarms and other app notifications",,,,
